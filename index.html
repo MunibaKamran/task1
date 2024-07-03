@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College alrt application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">Education</a>
+
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="search-courses" required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search-box"></button>
+            </form>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+            <div class="profile">
+                <img src="image/propic.jpg">
+                <h3>Muniba Kamran</h3>
+                <span>student</span>
+                <a href="#profile" class="btn">View profile</a>
+                <div class="flex-btn">
+                    <a href="#login" class="option-btn">login</a>
+                    <a href="#register" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--header section ends-->
+    <!---side bar section start--->
+    <div class="side-bar">
+        <div class="close-side-bar">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="profile">
+            <img src="image/propic.jpg">
+            <h3>Muniba Kamran</h3>
+            <span>student</span>
+            <a href="profile" class="btn">View profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"><span>Home</span></i></a>
+            <a href="about.html"><i class="fas fa-question"><span>About us</span></i></a>
+            <a href="#courses"><i class="fas fa-graduation-cap"><span>Courses</span></i></a>
+            <a href="#teachers"><i class="fas fa-chalkboard-user"><span>Teachers</span></i></a>
+            <a href="#contact"><i class="fas fa-headset"><span>Contact us</span></i></a>
+        </nav>
+    </div>
+    <!--side bar section ends-->
+    <!---quick select section start-->
+    <section class="quick-select">
+
+        <h1 class="heading">Quick Options</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <h3 class="title">Likes and comments</h3>
+                <p>total likes : <span>24</span></p>
+                <a href="#" class="inline-btn">view likes</a>
+                <p>total comments : <span>14</span></p>
+                <a href="#" class="inline-btn">view comments</a>
+                <p>saved playlist : <span>4</span></p>
+                        <a href="#" class="inline-btn">view playlists</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">Top categories</h3>
+                <div class="flex">
+                    <a href="#"><i class="fas fa-code"></i><span>Development</span></a>
+                    <a href="#"><i class="fas fa-chart-simple"></i><span>Business</span></a>
+                    <a href="#"><i class="fas fa-code-pan"></i><span>Design</span></a>
+                    <a href="#"><i class="fas fa-chart-line"></i><span>Marketing</span></a>
+                    <a href="#"><i class="fas fa-music"></i><span>Music</span></a>
+                    <a href="#"><i class="fas fa-camera"></i><span>Photography</span></a>
+                    <a href="#"><i class="fas fa-cog"></i><span>Software</span></a>
+                    <a href="#"><i class="fas fa-vial"></i><span>Science</span></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="title">Popular topics</h3>
+                <div class="flex">
+                    <a href="#"><i class="fab fa-html5"></i><span>Html</span></a>
+                    <a href="#"><i class="fab fa-css3"></i><span>Css</span></a>
+                    <a href="#"><i class="fab fa-js"></i><span>Javascript</span></a>
+                    <a href="#"><i class="fab fa-react"></i><span>React</span></a>
+                    <a href="#"><i class="fab fa-php"></i><span>Php</span></a>
+                    <a href="#"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></a>
+
+                </div>
+            </div>
+            <div class="box tutor">
+                <h3 class="title">become a tutor</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque ullam dicta, a repellat amet asperiores.</p>
+                <a href="register.html" class="inline-btn">get started</a>
+            </div>
+        </div>
+    </section>
+    <!------quick select section end--->
+    <!------courses section starts--->
+    <section class="courses"id="courses">
+        <h1 class="heading">our courese</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="tutor">
+                    <img src="image/girl2.jpg" alt="">
+                    <div>
+                        <h3>Tuba Zubair</h3>
+                        <span>21-2-2024</span>
+                    </div>
+                </div>
+                <img src="image/html2.jpg" class="thumb" alt="">
+                <h3 class="title">Complete HTML tutorial</h3>
+                <a href="#courses" class="inline-btn">view playlist</a>
+            </div>
+
+            <div class="box">
+                <div class="tutor">
+                    <img src="image/girl3.jpg" alt="">
+                    <div>
+                        <h3>Muniba Kamran</h3>
+                        <span>21-2-2024</span>
+                    </div>
+                </div>
+                <img src="image/css.jpg" class="thumb" alt="">
+                <h3 class="title">Complete CSS tutorial</h3>
+                <a href="#courses" class="inline-btn">view playlist</a>
+            </div>
+
+            <div class="box">
+                <div class="tutor">
+                    <img src="image/girl4.jpg" alt="">
+                    <div>
+                        <h3>Tasmeen Ahamad</h3>
+                        <span>21-2-2024</span>
+                    </div>
+                </div>
+                <img src="image/js.jpg" class="thumb" alt="">
+                <h3 class="title">Complete Javascript tutorial</h3>
+                <a href="#courses" class="inline-btn">view playlist</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="image/girl5.jpg" alt="">
+                    <div>
+                        <h3>Rehana Raees</h3>
+                        <span>21-2-2024</span>
+                    </div>
+                </div>
+                <img src="image/boot.jpg" class="thumb" alt="">
+                <h3 class="title">Complete Bootstrap tutorial</h3>
+                <a href="#courses" class="inline-btn">view playlist</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="image/propic.jpg" alt="">
+                    <div>
+                        <h3>Wajia Mateen</h3>
+                        <span>21-2-2024</span>
+                    </div>
+                </div>
+                <img src="image/react.jpg" class="thumb" alt="">
+                <h3 class="title">Complete React tutorial</h3>
+                <a href="#courses" class="inline-btn">view playlist</a>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="image/girl6.jpg" alt="">
+                    <div>
+                        <h3>Shiza Salman</h3>
+                        <span>21-2-2024</span>
+                    </div>
+                </div>
+                <img src="image/php.jpg" class="thumb" alt="">
+                <h3 class="title">Complete React tutorial</h3>
+                <a href="#courses" class="inline-btn">view playlist</a>
+            </div>
+        </div>
+        <div class="more-btn">
+            <a href="#courses" class="inline-option-btn">View more</a>
+        </div>
+    </section>
+    <!----------about section starts--------------------->
+    <section class="about"id="about">
+        <div class="row">
+            <div class="image">
+                <img src="image/aboutus.jpg" alt="">
+
+            </div>
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Vero delectus molestiae temporibus odit inventore beatae
+                    quam necessitatibus commodi nobis expedita.</p>
+                <a href="#courses" class="inline-btn">our courses</a>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                    <h3>+1k</h3>
+                    <span>courses</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-user-graduate"></i>
+                <div>
+                    <h3>+25k</h3>
+                    <span>brilliants students</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-chalkboard-user"></i>
+                <div>
+                    <h3>+5k</h3>
+                    <span>expert teachers</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                    <h3>+10k</h3>
+                    <span>job guranted</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!------courses section end--->
+    <!------reviews section start--->
+    <section class="reviews">
+        <h1 class="heading">student's reviews</h1>
+        <div class="box-container">
+            <div class="box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laboriosam pariatur, quo consectetur
+                    duroeos nisi neque dignissimos deleniti laudantium deserunt!</p>
+                <div class="user">
+                    <img src="image/rest5.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laboriosam pariatur, quo consectetur
+                    duroeos nisi neque dignissimos deleniti laudantium deserunt!</p>
+                <div class="user">
+                    <img src="image/rest4.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laboriosam pariatur, quo consectetur
+                    duroeos nisi neque dignissimos deleniti laudantium deserunt!</p>
+                <div class="user">
+                    <img src="image/rest3.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laboriosam pariatur, quo consectetur
+                    duroeos nisi neque dignissimos deleniti laudantium deserunt!</p>
+                <div class="user">
+                    <img src="image/rest2.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laboriosam pariatur, quo consectetur
+                    duroeos nisi neque dignissimos deleniti laudantium deserunt!</p>
+                <div class="user">
+                    <img src="image/rest.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laboriosam pariatur, quo consectetur
+                    duroeos nisi neque dignissimos deleniti laudantium deserunt!</p>
+                <div class="user">
+                    <img src="image/rest6.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+    <section class="comments">
+
+        <h1 class="heading">Add a Comment</h1>
+        <form action="" method="post" class="add-comment">
+            <h3>Add Title</h3>
+            <textarea name="comment_box" required placeholder="write your comments" maxlength="1000" cols="30"
+                row="10"></textarea>
+            <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+        </form>
+        <h1 class="heading">4 Comments</h1>
+
+        <div class="show-comments">
+            <div class="box">
+                <div class="user">
+                    <img src="image/rest.jpg" alt="">
+                    <div>
+                        <h3>shaikh anas</h3>
+                        <span>1-7-2024</span>
+                    </div>
+                </div>
+                <p class="text">this is a comment from shaikh anas</p>
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
+                    <button type="submit" name="delete_comment" class="inline-delete-btn">delete comment</button>
+                </form>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="image/rest2.jpg" alt="">
+                    <div>
+                        <h3>gemy deo</h3>
+                        <span>1-7-2024</span>
+                    </div>
+                </div>
+                <p class="text">wow amazing lacture very informated class</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="image/rest3.jpg" alt="">
+                    <div>
+                        <h3>abart raw</h3>
+                        <span>1-7-2024</span>
+                    </div>
+                </div>
+                <p class="text">wow amazing lacture very informated class</p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="image/rest4.jpg" alt="">
+                    <div>
+                        <h3>john deo</h3>
+                        <span>1-7-2024</span>
+                    </div>
+                </div>
+                <p class="text">wow amazing lacture very informated class</p>
+            </div>
+        </div>
+    </section>
+    <!----------------teacher section start----------------------------->
+    <section class="teachers"id="teachers">
+
+        <h1 class="heading">expert tutors</h1>
+
+        <form action="" method="post" class="search-tutor">
+            <input type="text" name="search_box" maxlength="100" placeholder="search tutor" required>
+            <button type="submit" name="search_tutor" class="fas fa-search"></button>
+        </form>
+        <div class="box-container">
+            <div class="box offer">
+                <h3>become a tutor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reiciendis corrupti deserunt, nihil culpa debitis ullam?</p>
+                <a href="register.html" class="inline-btn">get started</a>
+            </div>
+
+            <div class="box">
+                <div class="class">
+                    <img src="image/girl6.jpg" alt="">
+                    <div>
+                        <h3>Tasmin Ahamad</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+                <p>class students: <span>67</span></p>
+                <p>students likes: <span>1208</span></p>
+                <a href="#teacher" class="inline-btn">view profile</a>
+            </div>
+            <div class="box">
+                <div class="class">
+                    <img src="image/girl5.jpg" alt="">
+                    <div>
+                        <h3>MUNIBA Kamran</h3>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <p>class students: <span>67</span></p>
+                <p>students likes: <span>1208</span></p>
+                <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+            <div class="box">
+                <div class="class">
+                    <img src="image/girl4.jpg" alt="">
+                    <div>
+                        <h3>Rehana Raees</h3>
+                        <span>Javascript</span>
+                    </div>
+                </div>
+                <p>class students: <span>67</span></p>
+                <p>students likes: <span>1208</span></p>
+                <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+            <div class="box">
+                <div class="class">
+                    <img src="image/girl3.jpg" alt="">
+                    <div>
+                        <h3>shiza sulman</h3>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <p>class students: <span>67</span></p>
+                <p>students likes: <span>1208</span></p>
+                <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+            <div class="box">
+                <div class="class">
+                    <img src="image/girl2.jpg" alt="">
+                    <div>
+                        <h3>wajiha Mateen</h3>
+                        <span>React</span>
+                    </div>
+                </div>
+                <p>class students: <span>67</span></p>
+                <p>students likes: <span>1208</span></p>
+                <a href="teacher_profile.html" class="inline-btn">view profile</a>
+            </div>
+
+        </div>
+    </section>
+    <!------teacher section end--->
+    <!------contact section start--->
+    <section class="contact"id="contact">
+
+        <div class="row">
+            <div class="image">
+                <img src="image/con.jpg" alt="">
+            </div>
+
+            <form action="" method="post">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="enter you name" required maxlength="100" name="name" class="box">
+                <input type="email" placeholder="enter you email" required maxlength="100" name="email" class="box">
+                <input type="rollno" placeholder="enter you roll no" required maxlength="100" name="roll no"
+                    class="box">
+                <input type="contact no" placeholder="enter you contact no" required maxlength="100" name="contact no"
+                    class="box">
+                <textarea name="msg" class="box" placeholder="enter your message" required cols="30"
+                    rows="10"></textarea>
+                <input type="submit" value="send message" class="inline-btn" name="submit">
+            </form>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>phone number</h3>
+                <a href="tel:1234567890">123-456-7890</a>
+                <a href="tel:1234567890">123-456-7890</a>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>email address</h3>
+                    <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.com</a>
+                    <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.com</a>
+
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>College address</h3>
+
+                    <a href="#">plot:no 1 university rode karachi</a>
+                </div>
+
+            </div>
+    </section>
+
+    <!------contact section end--->
+    <!------contact section start--->
+    <section class="form-container"id="register">
+        <form action="" method="post" enctype="multipart/form-data">
+            <h3>update profile</h3>
+            <p>your name</p>
+            <input type="text" name="name"
+             placeholder="Muniba kamran" maxlength="100" class="box">
+             <p>your email</p>
+             <input type="email" name="name"
+             placeholder="www.@gmail.com" maxlength="100" class="box">
+             <p>your roll number</p>
+             <input type="password" name="roll no"
+             placeholder="enter your roll no" maxlength="50" class="box">
+             <p>your passward</p>
+             <input type="password" name="password"
+             placeholder="enter your  password" maxlength="50" class="box">
+             <p>update pic</p>
+             <input type="file" name="image"accept="image/*"class="box">
+<input type="submit" name="submit" value="update profile"
+ class="inline-btn">
+        </form>
+    </section>
+     <!------login section start--->
+     <section class="form-container"id="login">
+        <form action="" method="post" enctype="multipart/form-data">
+            <h3>welcome back</h3>
+             <p>your email <span>*</span></p>
+             <input type="email" name="name"
+             placeholder="www.@gmail.com" maxlength="100" class="box">
+             <p>your passward <span>*</span></p>
+             <input type="password" name="password"
+             placeholder="enter your  password" maxlength="50" class="box">
+             <input type="file" name="image"accept="image/*"class="box">
+<input type="submit" name="submit" value="login now" class="btn">
+    <!------profile section end--->
+
+
+    
+    <!------------footer section starts-------------------->
+    <footer class="footer">
+        &copy;copyright @ 2024 by <span>MK . web designer</span> all rights reserved!
+    </footer>
+
+
+
+
+
+    <!------------footer section end-------------------->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
